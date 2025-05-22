@@ -1,0 +1,91 @@
+### Java Project Roadmap: Task Prioritizer with Smart Suggestions
+
+---
+
+## ✨ Project Idea: Task Prioritizer
+
+A console-based Java program that allows users to manage tasks by adding deadlines and importance levels. It auto-sorts them and offers smart task suggestions.
+
+---
+
+## ✅ Features
+
+1. Add/Edit/Delete Tasks
+2. Set Deadlines & Importance Levels
+3. Automatic Priority Sorting
+4. Smart Suggestions (based on urgency & category)
+5. Save/Load Tasks from a Binary File
+
+---
+
+## 📋 Project Requirements
+
+### Core Concepts Used:
+
+* OOP (Task, Manager classes)
+* Data Structures (ArrayList, PriorityQueue)
+* File I/O (Binary)
+* Exception Handling
+* Sorting and Comparators
+* Generics
+* Recursion
+* *(Optional)* JavaFX for GUI
+
+---
+
+## 🛠️ Roadmap
+
+### ⌚ Week 1: Design and Setup (4–6 hrs)
+
+* [ ] Decide on task fields: title, description, deadline, importance
+* [ ] Write class diagram on paper
+* [ ] Create `Task` and `TaskManager` classes (with ArrayList)
+* [ ] Write basic CLI menu: add, list, delete
+
+### ⌚ Week 2: Priority Features (5–8 hrs)
+
+* [ ] Add comparator to auto-sort by urgency
+* [ ] Add PriorityQueue for smart suggestions
+* [ ] Allow editing tasks
+* [ ] Add error handling
+
+### ⌚ Week 3: File I/O + Recursion (5–7 hrs)
+
+* [ ] Implement Binary File Saving (ObjectOutputStream)
+* [ ] Implement Binary File Loading (ObjectInputStream)
+* [ ] Add recursive menu navigation
+
+### ⌚ Week 4: Smart Logic and Finishing Touches (6–10 hrs)
+
+* [ ] Smart Suggestion Logic (top 3 urgent tasks)
+* [ ] Add search/filter
+* [ ] Final Testing & Debugging
+* [ ] *(Optional)* Add GUI using JavaFX
+
+---
+
+## 📚 Topics to Learn
+
+| Topic                 | When to Learn | Why                  |
+| --------------------- | ------------- | -------------------- |
+| `Comparator`          | Week 2        | For custom sorting   |
+| `PriorityQueue`       | Week 2        | Manage urgent tasks  |
+| `Object Streams`      | Week 3        | Binary data handling |
+| `Recursion`           | Week 3        | Reusable menu logic  |
+| `JavaFX` *(optional)* | Week 4+       | GUI version          |
+
+---
+
+## 🧐 Tips
+
+* Start with CLI first
+* Keep code modular
+* Test as you go
+* Keep UI separate from logic
+* Write comments for your future self
+
+---
+
+## ⏳ Estimated Time
+
+**20–30 hours total**, depending on pace and optional GUI.
